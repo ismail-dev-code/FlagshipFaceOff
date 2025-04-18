@@ -1,6 +1,6 @@
 # FlagShipFaceOff Resources
 
-[Live Demo](https://book-vibe-ismail.netlify.app/)
+[Live Demo]()
 
 ## Documentation Links
 - [React](https://react.dev/)
