@@ -1,38 +1,38 @@
 import React from "react";
-import { createBrowserRouter} from "react-router";
+import { createBrowserRouter } from "react-router";
 
 import Favorites from "../pages/Favorites";
 import Home from "../pages/Home";
-import mainLayout from '../layout/MainLayout'
+import mainLayout from "../layout/MainLayout";
+import About from "../pages/About";
+import PhoneDetails from "../pages/PhoneDetails";
+import ErrorPage from "../pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: mainLayout,
-    errorElement: <h3 className="text-rose-300 text-center">error khace reeeeee</h3>,
+    errorElement: <ErrorPage />,
     children: [
-        {
-            path: '/',
-            element: <Home></Home>
-        },
+      {
+        path: "/",
+        element: <Home />,
+      },
       {
         path: "/favorites",
         Component: Favorites,
-        children: [
-          {
-            path: "more-nested",
-            element: <p>i am inside favorite</p>,
-          },
-        ],
+      },
+
+      {
+        path: "/about",
+        element: <About />,
       },
       {
-        path: '/about',
-        element: <h3>this is about</h3>
-      }
+        path: "/phone-details",
+        element: <PhoneDetails />,
+      },
     ],
   },
 ]);
-
-
 
 export default router;

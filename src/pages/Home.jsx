@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import Hero from "../components/Hero";
+import PhoneContainer from "../components/PhonesContainer";
 
 const Home = () => {
-    return (
-        <div>
-            <h2>this is home</h2>
-        </div>
-    );
+  return (
+    <div>
+      <Hero />
+      <PhoneContainer />
+    </div>
+  );
 };
 
 export default Home;
