@@ -10,10 +10,10 @@ const Hero = () => {
         alt="banner img"
       />
       <div className="text-center space-y-4">
-        <h2 className="text-7xl font-thin text-gray-900">
+        <h2 className="lg:text-7xl text-3xl font-thin text-gray-900">
           Browse, Search, View, Buy
         </h2>
-        <p className="text-gray-500 max-w-2/5 mx-auto">
+        <p className="text-gray-500 w-full lg:max-w-2/5 mx-auto">
           Best place to browse, search, view details and purchase of top
           flagship phones of the current time - FlagshipFaceOff
         </p>
@@ -21,7 +21,7 @@ const Hero = () => {
           <input
             type="text"
             placeholder="Search Phone by Name"
-            className="bg-white border border-gray-300 rounded shadow-md w-2/3 h-12 px-4 mb-3 focus:outline-none focus:shadow-outline md:mr-2 md:mb-0"
+            className="bg-white lg:text-base text-xs border border-gray-300 rounded shadow-md w-2/3 h-12 px-4 mb-3 focus:outline-none focus:shadow-outline md:mr-2 md:mb-0"
           />
           <button className="relative inline-block text-lg group cursor-pointer">
             <span className="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
