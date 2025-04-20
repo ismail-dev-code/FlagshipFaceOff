@@ -23,7 +23,7 @@ const PhonesContainer = ({ phones }) => {
       <button
         onClick={() => {
           setShowAll((prev) => !prev);
-          if (showAll) window.scrollTo(0, 0);
+          if (showAll) window.scrollTo(0, 600);
         }}
         className="relative inline-block text-lg group cursor-pointer"
       >
