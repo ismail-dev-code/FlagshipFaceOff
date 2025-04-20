@@ -55,7 +55,7 @@ const Navbar = () => {
           alt="logoImg"
         />
         <Link to="/" className="font-bold text-xl">
-          FlagshipFaceOff
+        FLProductsBD
         </Link>
       </div>
 

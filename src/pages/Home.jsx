@@ -8,10 +8,11 @@ const Home = () => {
   const [phones, setPhones] = useState(data);
   const handleSearch = (e, text) => {
     e.preventDefault(text);
+    if (text === "") return setPhones(data);
     const searchedPhone = data.filter(
       (phone) =>
-        phone.name.toLowerCase().split(' ').includes(text) === true ||
-        phone.brand.toLowerCase().split(' ').includes(text) === true
+        phone?.name?.toLowerCase().split(" ").includes(text) === true ||
+        phone.brand?.toLowerCase().split(" ").includes(text) === true
     );
     setPhones(searchedPhone);
   };

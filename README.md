@@ -1,6 +1,6 @@
-# FlagShipFaceOff Resources
+# FLProductsBD Resources
 
-[Live Demo](https://flagship-face-off-ismail.netlify.app/)
+[Live Demo](https://FLProductsBD.netlify.app/)
 
 ## Documentation Links
 - [React](https://react.dev/)
